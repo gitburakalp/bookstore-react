@@ -1,0 +1,41 @@
+{
+  "name": "bookstore-react",
+  "version": "1.0.0",
+  "description": "Bookstore",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitburakalp/bookstore-react.git"
+  },
+  "keywords": [
+    "bookstore",
+    "book",
+    "react",
+    "react",
+    "example"
+  ],
+  "author": "Burak Alp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitburakalp/bookstore-react/issues"
+  },
+  "homepage": "https://github.com/gitburakalp/bookstore-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
